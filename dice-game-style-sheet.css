@@ -104,8 +104,9 @@ footer {
 }
 
 @media (max-width: 625px) {
-    .body {
-        margin-bottom: -100px;
+    .dice-game {
+        padding-top: -10px;
+        padding-bottom: 5px;
     }
 
     h1 {
@@ -122,11 +123,16 @@ footer {
         animation: glow 2.5s ease-in-out infinite alternate;
     }
 
-    
     .dice {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap: 50px;
+    }
+
+    img {
+        height: 125px;
+        width: 125px;
     }
 }
