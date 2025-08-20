@@ -17,8 +17,8 @@ html {
 }
 
 .dice-game {
-    padding-top: 35px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -99,4 +99,5 @@ footer {
     font-family: "Quicksand", sans-serif;
     padding-bottom: 10px;
     margin-top: -10px;
+
 }
