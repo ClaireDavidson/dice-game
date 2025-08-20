@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Dice Game</title>
+        <link rel="stylesheet" href="./dice-game-style-sheet.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body">  
+            <div class="dice-game">
+                <div class="title">
+                    <h1>THE DICE GAME</h1>
+                </div>
+                <div class="subtitle">
+                    <h2>Press the button and try your luck...</h2>
+                </div>
+                <br />
+                <div>
+                    <button type="button" onclick="rollDiceButton()">ROLL DICE</button>
+                </div>
+            </div>
+            <div class="dice">
+                <div class="container">
+                    <p class="player" id="player-one">Player 1</p>
+                    <img class="image" id="die-one" src="./images/dice3.png">
+                </div>
+                <div class="container">
+                    <p class="player" id="player-two">Player 2</p>
+                    <img class="image" id="die-two" src="./images/dice3.png">
+                </div>
+            </div>
+        </div> 
+        <hr />
+        <br />
+    <script rel="jssheet" src="./index.js" charset="utf-8"></script>
+    </body>
+    <footer>
+        Created by Claire Davidson using GitHub.
+    </footer>
