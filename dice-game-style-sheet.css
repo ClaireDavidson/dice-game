@@ -109,18 +109,36 @@ footer {
         padding-bottom: 5px;
     }
 
+    .title {
+        padding-bottom: 4px;
+    }
+
     h1 {
         color: white;
         text-shadow: 0 0 15px white;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-family: "Tsukimi Rounded", sans-serif;
         font-weight: 400;
         font-style: normal;
         letter-spacing: .25rem;
-        line-height: 5rem; 
+        line-height: 4rem; 
         -webkit-animation: glow 2.5s ease-in-out infinite alternate;
         -moz-animation: glow 2.5s ease-in-out infinite alternate;
         animation: glow 2.5s ease-in-out infinite alternate;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    button {
+        height: 40px;
+        width: 165px;
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: .75rem;
     }
 
     .dice {
